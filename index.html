@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOGLE : the Food Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="restaurant-icon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img id="restaurant-logo" src="restaurant-icon.jpg" alt="logo">
+        <div>
+            <h1 id="restaurant-name">F<span id="imoji">😀😀</span>gle</h1>
+            <h2>The Food Google</h2>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Recipes</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <input type="search" id="search-input" placeholder="Search for meals...">
+            <button id="search-button">Search</button>
+            <button class="order-button">Price</button>
+            <button class="order-button">Order</button>
+        </section>
+        <section id="food-detail"></section>
+        <div id="wrapper-div">
+            <div id="container-div"></div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
